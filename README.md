@@ -1,5 +1,9 @@
 # Analysis-of-Household-Power-Consumption-using-Clustering-and-MapReduce
-In order to run the programs, please follow the steps as below:
+
+**Abstract**: A MapReduce-based k-means clustering model for the analysis of electric power consumption of a single household is proposed. The priority queuing technique is used for calculating the initial random centroids for the k-means clustering. The results show that the proposed paradigm gave good accuracy and Jaccard score as compared to the standard model. The proposed model is highly suitable for Big Data and distributed environment which requires parallel processing.
+
+
+In order to run the program, please follow the steps as below:
 
 1) Run "DataPrep.py". This file can be run in any directory.
       This will generate "dataset.txt" file which will be required to run MapReduce program of priority queue.
